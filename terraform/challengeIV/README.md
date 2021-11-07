@@ -1,4 +1,4 @@
-## Desafío IV
+# Desafío IV
 
 Acabas de ingresar en una consultora que brinda asesoría sobre servicios en la nube. Como primer trabajo te encomiendan desarrollar una pequeña PoC (Proof of Concept) para una startup que la empresa tiene como cliente. 
 
@@ -23,7 +23,7 @@ Como herramienta adicional puedes solicitar un usuario de AWS, con el cual podr�
 
 Tené en cuenta que además de vos hay otros integrantes nuevos en el equipo que también tienen un trabajo similar para otros clientes. Por lo que deberás seleccionar una subnet diferente a las que ya se encuentren creadas. Para no interferir con el trabajo de otros.
 
-Tu lider dos repositorios, no con el [workflow](https://github.com/facundoalarcon/gha_terraform_cloud_example) que deberías usar, y [otro](https://github.com/facundoalarcon/computernetworks/tree/main/terraform/single_ec2) con código de Terraform previamente creado en otra PoC que hicieron para un viejo cliente, para que te sirva de ejemplo.
+Tu lider te pasa dos repositorios, uno con el [workflow](https://github.com/facundoalarcon/gha_terraform_cloud_example) que deberás usar, y [otro](https://github.com/facundoalarcon/computernetworks/tree/main/terraform/single_ec2) con código de Terraform previamente creado en otra PoC que hicieron para un viejo cliente, para que te sirva de ejemplo.
 
 Al final deberás entregar un reporte al cliente dentro del repositorio que creaste, con un esquema de la infraestructura creada y capturas de pantalla de la consola de administración de AWS con todo lo que se creó.
 
@@ -39,7 +39,7 @@ Consideraciones:
 - En lo posible entregar el reporte en un README.md del repositorio, caso contrario subir un pdf en el mismo
 - Una vez creada la infraestructura, apagar la instancia para que no consuma recursos adicionales. No van a poder hacer esto si no usan la etiqueta Owner = nombre-de-usuario
 
-# Links de referencia
+## Links de referencia
 - [Automate Terraform with GitHub Actions](https://learn.hashicorp.com/tutorials/terraform/github-actions)
 - [Terraform Documentarion - Resource: aws_subnet](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet)
 - [AWS Region and Zones](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html)
