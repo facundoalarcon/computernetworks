@@ -15,7 +15,7 @@ git commit -m "new commit"
 git push -u origin new-branch-name
 ```
 
-Podes crear un archivo ```.gitignore para excluir archivos o carpetas y en vez de usar ```git add .``` podrías incluit sólo los archivos que necesites.
+Podes crear un archivo ```.gitignore``` para excluir archivos o carpetas y en vez de usar ```git add .``` podrías incluit sólo los archivos que necesites.
 
 Una vez hecho esto y finalizado correctamente el workflow esperar al review de los instructores.
 
