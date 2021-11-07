@@ -23,7 +23,7 @@ Como herramienta adicional puedes solicitar un usuario de AWS, con el cual podr�
 
 Tené en cuenta que además de vos hay otros integrantes nuevos en el equipo que también tienen un trabajo similar para otros clientes. Por lo que deberás seleccionar una subnet diferente a las que ya se encuentren creadas. Para no interferir con el trabajo de otros.
 
-Tu lider te pasa un [repositorio](https://github.com/facundoalarcon/gha_terraform_cloud_example) con código previamente creado en otra PoC que hicieron para un viejo cliente, para que te sirva de ejemplo.
+Tu lider dos repositorios, no con el [workflow](https://github.com/facundoalarcon/gha_terraform_cloud_example) que deberías usar, y [otro](https://github.com/facundoalarcon/computernetworks/tree/main/terraform/single_ec2) con código de Terraform previamente creado en otra PoC que hicieron para un viejo cliente, para que te sirva de ejemplo.
 
 Al final deberás entregar un reporte al cliente dentro del repositorio que creaste, con un esquema de la infraestructura creada y capturas de pantalla de la consola de administración de AWS con todo lo que se creó.
 
