@@ -5,7 +5,7 @@ resource "aws_instance" "server1" {
   associate_public_ip_address = true
   vpc_security_group_ids      = [aws_security_group.allow_icmp_ssh.id, aws_security_group.allow_http_https.id]
   private_ip                  = var.subnet1_private_ip
-  key_name                    = aws_key_pair.key1.id
+  key_name                    = aws_key_pair.key1.key_name
   user_data                   = file("user-data.sh")
 
   tags = {
