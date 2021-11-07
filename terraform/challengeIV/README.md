@@ -43,5 +43,6 @@ Consideraciones:
 - [Automate Terraform with GitHub Actions](https://learn.hashicorp.com/tutorials/terraform/github-actions)
 - [Terraform Documentarion - Resource: aws_subnet](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet)
 - [AWS Region and Zones](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html)
+- [Git examples](https://github.com/facundoalarcon/computernetworks/blob/main/terraform/challengeIV/github_steps_example.md)
 
 
