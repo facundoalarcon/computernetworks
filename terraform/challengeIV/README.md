@@ -6,7 +6,7 @@ La SRE lider de tu equipo te dice que ya han hecho diversas pruebas para diferen
 
 Deberás crear un nuevo repositorio para el proyecto, con el workflow respetando los nombres de las carpetas y archivo **./github/workflows/terraform.yml**.
 
-Ademas, tu lider, te dice que este workflow utiliza una API Key, un Organización y un Workspace de Terraform Cloud, por lo que deberás cargarlos como secrets en tu repositorio, con los siguientes nombres **TF_API_TOKEN**, **ORGANIZATION** y **WORKSPACE**. Como estos elementos se van rotando cada determinado lapso de tiempo, te pide que los solicites a ella o a tus compañeros de equipo.
+Ademas, tu lider, te dice que este workflow utiliza una API Key, una Organización y un Workspace de Terraform Cloud, por lo que deberás cargarlos como secrets en tu repositorio, con los siguientes nombres **TF_API_TOKEN**, **ORGANIZATION** y **WORKSPACE**. Como estos elementos se van rotando cada determinado lapso de tiempo, te pide que los solicites a ella o a tus compañeros de equipo.
 
 Tu primer trabajo como miembro de este team es crear el código de Terraform para desplegar como Infrastructure as Code (IaC) y tener versionada la misma.
 
@@ -17,7 +17,7 @@ Como tu código estará vinculado a Terraform Cloud no vas a poder usar el archi
 - **internet_gateway_id** = ID del IGW del laboratorio
 - **key1** = nombre de la clave pública registrada en amazon para el acceso a la instancia 
 
-Como ya tienes asignada una Virtual Private Cloud (VPC) y un Internet Gateway (IGW), solamente deberías crear la subnet, dar una IP privada a la instancia dentro de la misma y desplegarla por medio de Terraform. La misma deberá tener montado un sitio de pruebas, cargado por medio de un **user-data** de EC2, con un HTML es suficiente, ya que solo es para una PoC al cliente de IaC por medio del protocolo HTTP. Por otro lado también te solicitan que sea accesible por SSH.
+Como ya tienes asignada una Virtual Private Cloud (VPC) y un Internet Gateway (IGW), solamente deberías crear la subnet, dar una IP privada a la instancia dentro de la misma y desplegarla por medio de Terraform. La misma deberá tener montado un sitio de pruebas, cargado por medio de un **user-data** de EC2, con un HTML es suficiente, ya que solo es para una PoC. Se solicita acceso por HTTP y SSH.
 
 Como herramienta adicional puedes solicitar un usuario de AWS, con el cual podrás administrar la instancia una vez que la despliegues. La misma deberá tener una etiqueta Owner, donde asignarás el nombre del usuario que te indiquen, de esta forma podrás manipular tu instancia desde la interfaz de AWS. Si no lo haces no podrás interactuar con la misma una vez desplegada.
 
