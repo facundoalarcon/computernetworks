@@ -10,7 +10,7 @@ Ademas, tu lider, te dice que este workflow utiliza una API Key, una Organizaci�
 
 Tu primer trabajo como miembro de este team es crear el código de Terraform para desplegar como Infrastructure as Code (IaC) y tener versionada la misma.
 
-Como tu código estará vinculado a Terraform Cloud no vas a poder usar el archivo **.tfvars** que normalmente se utiliza para definir los valores de las variables en Terraform, estas variables se encuentran en dicha plataforma, a la cual no tienes acceso. Pero tu lider, te comenta que puedes acceder a algunas variables de terraform cloud utilizando los siguientes nombres:
+Como tu código estará vinculado a Terraform Cloud no vas a poder usar el archivo **.tfvars** que normalmente se utiliza para definir los valores de las variables en Terraform, estas variables se encuentran en dicha plataforma, a la cual no tienes acceso. Pero tu lider, te comenta que puedes acceder a algunas variables de Terraform Cloud utilizando los siguientes nombres:
 - **region** = region permitida en AWS
 - **instance_type** = tipo de instancia utilizadas para laboratorio
 - **vpc1_id** = ID de la VPC del laboratorio
