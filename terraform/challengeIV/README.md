@@ -6,7 +6,7 @@ La SRE lider de tu equipo te dice que ya han hecho diversas pruebas para diferen
 
 Deberás crear un nuevo repositorio para el proyecto, con el workflow respetando los nombres de las carpetas y archivo **./github/workflows/terraform.yml**.
 
-Ademas, tu lider, te dice que este workflow utiliza una API Key, una Organización y un Workspace de Terraform Cloud, por lo que deberás cargarlos como secrets en tu repositorio, con los siguientes nombres **TF_API_TOKEN**, **ORGANIZATION** y **WORKSPACE**. Como estos elementos se van rotando cada determinado lapso de tiempo, te pide que los solicites a ella o a tus compañeros de equipo.
+Ademas, tu lider, te dice que este workflow utiliza una API Key, una Organización y un Workspace de Terraform Cloud, por lo que deberás cargarlos como secrets en tu repositorio, con los siguientes nombres **TF_API_TOKEN**, **ORGANIZATION** y **WORKSPACE** respectivamente. Como estos elementos se van rotando cada determinado lapso de tiempo, te pide que los solicites a ella o a tus compañeros de equipo.
 
 Tu primer trabajo como miembro de este team es crear el código de Terraform para desplegar como Infrastructure as Code (IaC) y tener versionada la misma.
 
