@@ -33,7 +33,7 @@ Consideraciones:
 - El repositorio debe ser privado
 - Brindar acceso al repositorio a todos los stakeholders
 - Usar las variables definidas en Terraform Cloud
-- Antes de desplegar la infraestructura solicitar un review del código por medio de un PR a los instructores. Una forma de lograr esto creado el branch main o master en el repositorio con el workflow luego, crear un nuevo branch partiendo del anterior y pushear el código con los archivos .tf
+- Antes de desplegar la infraestructura solicitar un review del código por medio de un Pull Request (PR) a los instructores. Una forma de lograr esto creado el branch main o master en el repositorio con el workflow luego, crear un nuevo branch partiendo del anterior y pushear el código con los archivos .tf
 - No necesitarás instalar el cliente de Terraform, ya que los comandos para desplegar la infraestructura son administrados por Github Actions y Terraform Cloud
 - La región utilizada es US East (N. Virginia)
 - En lo posible entregar el reporte en un README.md del repositorio, caso contrario subir un pdf en el mismo
