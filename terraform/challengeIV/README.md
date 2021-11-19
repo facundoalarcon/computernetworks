@@ -4,7 +4,7 @@ Acabas de ingresar en una consultora que brinda asesoría sobre servicios en la 
 
 La SRE lider de tu equipo te dice que ya han hecho diversas pruebas para diferentes clientes y que ya desarrollaron un workflow en [Github Actions](https://docs.github.com/es/actions) que utiliza [Terraform Cloud](https://www.terraform.io/cloud) para desplegar la infraestructura en una Virtual Private Cloud (VPC) de Amazon Web Services (AWS) que tienen en una cuenta para laboratorios. Por lo tanto te dice que uses dicho workflow, que se encuentra en [este](https://github.com/facundoalarcon/gha_terraform_cloud_example) repositorio.
 
-Deberás crear un nuevo repositorio para el proyecto, con el workflow respetando los nombres de las carpetas y archivo **./github/workflows/terraform.yml**.
+Deberás crear un nuevo repositorio para el proyecto, con el workflow respetando los nombres de las carpetas y archivo **.github/workflows/terraform.yml**.
 
 Ademas, tu lider, te dice que este workflow utiliza una API Key, una Organización y un Workspace de Terraform Cloud, por lo que deberás cargarlos como secrets en tu repositorio, con los siguientes nombres **TF_API_TOKEN**, **ORGANIZATION** y **WORKSPACE** respectivamente. Como estos elementos se van rotando cada determinado lapso de tiempo, te pide que los solicites a ella o a tus compañeros de equipo.
 
