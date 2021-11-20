@@ -29,6 +29,7 @@ Tu lider te pasa un [repositorio](https://github.com/facundoalarcon/computernetw
 Al final deberás entregar un reporte al cliente dentro del repositorio que creaste, con un esquema de la infraestructura creada y capturas de pantalla de la consola de administración de AWS con todo lo que se creó.
 
 Consideraciones:
+- El rango de la VPC es 172.16.0.0/16
 - Solicitar por correo el API Token, Organización y Workspace
 - Solicitar por correo el usuario IAM de AWS
 - El repositorio debe ser privado
