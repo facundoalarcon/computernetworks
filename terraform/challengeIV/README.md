@@ -40,11 +40,13 @@ Consideraciones:
 - La región utilizada es US East (N. Virginia)
 - En lo posible entregar el reporte en un README.md del repositorio, caso contrario subir un pdf en el mismo
 - Una vez creada la infraestructura, apagar la instancia para que no consuma recursos adicionales. No van a poder hacer esto si no usan la etiqueta Owner = nombre-de-usuario
+- Dessactivar Github Actions una vez concluido el deploy
 
 ## Links de referencia
 - [Automate Terraform with GitHub Actions](https://learn.hashicorp.com/tutorials/terraform/github-actions)
 - [Terraform Documentarion - Resource: aws_subnet](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet)
 - [AWS Region and Zones](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html)
 - [Git examples](https://github.com/facundoalarcon/computernetworks/blob/main/terraform/challengeIV/github_steps_example.md)
+- [Deshabilitar Workflows de Github Actions](https://docs.github.com/en/actions/managing-workflow-runs/disabling-and-enabling-a-workflow)
 
 
